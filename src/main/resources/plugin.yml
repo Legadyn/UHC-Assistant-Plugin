@@ -1,0 +1,12 @@
+name: UHC-Assistant
+version: 1.0-SNAPSHOT
+main: me.legadyn.uhcscoreboard.Main
+api-version: 1.16
+
+commands:
+  uhcboard:
+    description: uhcboard
+    usage: /<command> [start|stop|settimer|limit|setdisplay|settitle|changeline|countdown|show]
+  uhcteams:
+    description: uhcteams
+    usage: /<command> [create|join|leave|delete|leaveall|deleteall|allowfriendlyfire|list|playerlist]
